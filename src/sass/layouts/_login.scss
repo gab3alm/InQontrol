@@ -1,0 +1,28 @@
+@import '../components/_inputPill';
+@import '../components/_flatButton';
+@import '../components/_divider';
+@import '../components/_buttonPill';
+
+#login-page {
+  font-family: $sec-font;
+  margin-top: 15%;
+  padding: 8%;
+}
+
+.brand{
+  font-family: $main-font;
+  text-align:center;
+  font-size: 4em;
+  color: white;
+  text-shadow: 4px 4px 2px rgba(0,0,0,.25);
+}
+
+.btn-login{
+  color: white;
+  background: $main-color;
+  border-radius: $borders;
+  width: 100%;
+  box-shadow: $shadows;
+  margin-bottom: 20px;
+}
+

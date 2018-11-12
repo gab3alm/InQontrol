@@ -1,0 +1,19 @@
+.btn-flat{
+  text-transform: capitalize;
+  background: transparent;
+  border-color: white;
+  border-radius: $borders;
+  padding: 1% 5%;
+  width: 130px;
+  margin-bottom: 20px;
+}
+
+.btn-flat:hover{
+  transform: scale(1.2);
+}
+
+.btn-flat:disabled{
+  background-color: transparent;
+  border-color:white;
+  opacity: 0.5;
+}
